@@ -1,2 +1,11 @@
-.header {
-    background-image: ".../"
+.project {
+    border: solid black;
+}
+.project img {
+    max-width: 400px;
+}
+.project-container {
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+}
