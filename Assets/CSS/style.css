@@ -1,11 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
 .project {
     border: solid black;
 }
 .project img {
     max-width: 400px;
+    max-height: 250px;
 }
+
 .project-container {
     display: flex;
     border: solid red;
     justify-content: space-between;
+}
+
+body {
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+}   
+
+header {
+    padding: 20px 35px;
+    background-color: gray;
+    border: solid red;
+    
+}
+
+header h1 {
+    font-weight: bold;
+    display: inline;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li  {
+    margin: 0 30px;
 }
