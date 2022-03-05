@@ -8,14 +8,14 @@
     border: solid black;
 }
 .project img {
-    max-width: 400px;
-    max-height: 250px;
+    max-width: 800px;
+    max-height: 300px;
 }
 
 .project-container {
-    display: flex;
     border: solid red;
-    justify-content: space-between;
+    margin: 50px;
+    background-color: aqua;
 }
 
 body {
@@ -26,17 +26,19 @@ header {
     padding: 20px 35px;
     background-color: gray;
     border: solid red;
+    margin: 50px;
     
 }
 
 header h1 {
     font-weight: bold;
     display: inline;
-    margin: 0;
+    margin: 50;
 }
 
 header a {
     text-decoration: none;
+    display:block;
 }
 
 header nav {
@@ -47,3 +49,4 @@ header nav {
 header nav ul li  {
     margin: 0 30px;
 }
+
